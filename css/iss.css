@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+p
+{
+	font-weight: 300;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+    color: white;
+	text-align: center;
+}
+
+h1 a{
+	text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+hr {
+	color: #f0f0f0;
+}
+
+body
+{
+	background-color: #ffffff;
+}
+
+section
+{
+	padding: 0;
+}
+
+.wrapper 
+{
+	padding: 3rem 1.5rem;
+	height: 100vh;
+}
+
+.row
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row .col50-1
+{
+	position: relative;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.row .col50-2
+{
+	position: relative;
+	width: 100%;
+	background-color: #00acee;
+}
+
+@media (max-width:991px)
+{
+
+	.row .col50 {
+		margin-bottom: 2em;
+	}
+
+}
+
+/*********************************************************************************/
+/* HEADER                                                                        */
+/*********************************************************************************/
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	z-index: 10000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+}
+
+/* Button Style */
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: #36304a;
+    color: white;
+    cursor: pointer;
+    padding: 10px 45px;
+    border-radius: 10px;
+    font-size: 18px; }
+
+
+.btn:hover {
+  background-color: #fff ;
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+/* Container */
+
+.container
+{
+	width: 90%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Container */
+
+.container
+{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Table Coordinate */
+
+.wrap-table100 {
+  width: 1170px;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-bottom: auto;
+  border: 1px solid black;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #E2E2E2;
+}
+table tbody tr {
+  height: 50px;
+}
+
+.tableCoor-head th{
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #212121;
+  line-height: 1.2;
+  font-weight: unset;
+  text-align: left;
+}
+
+.tableCoor-body tr, td{
+	border: 1px solid black;
+  }
+
+
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr {
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: black;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+
+.tablePeople {
+	margin-bottom: 3em;
+}
+
+.tablePeople-head th{
+font-family: 'Montserrat';
+font-size: 16px;
+color: #212121;
+line-height: 1.2;
+font-weight: unset;
+text-align: center;
+}
+
+.tablePeople-body tr, td{
+	border: 1px solid black;
+}
+
+
+
+tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+
+.tablePeople td {
+font-family: 'Poppins';
+font-size: 15px;
+color: #808080;
+line-height: 1.2;
+font-weight: unset;
+}
+
+.tablePeople td:hover {
+	color: black;
+	}
+
+.tablePeople-body td:hover {
+color: #555555;
+background-color: #f5f5f5;
+cursor: pointer;
+}
+
+
+/* Input */
+
+
+input[type=datetime-local] {
+	width: auto;
+	font-family: 'Poppins', sans-serif;
+	padding: 12px 12px;
+	margin: 0.5em 0em 0.5em 0em;
+	box-sizing: border-box;
+	border : 0px;
+	border-bottom : 3px solid black;
+	-webkit-transition: 0.15s;
+	transition: 0.15s;
+	outline: none;
+	text-align: center;
+	color: black;
+	background-color: transparent;
+}
+
+input[type=datetime-local]:focus {
+	border-bottom: 3px solid black;
+}
+
+@media (max-width:991px)
+{ 
+	input[type=datetime-local] {
+		width: 70%;
+	}
+}
+
+/* Iss Locator  */
+.isslocator {
+	text-align: center;
+	background-color: #E2E2E2;
+}
+
+.isslocator span {
+	font-weight: 300;
+	font-size: 10pt;
+}
+
+.isslocator #infoi form {
+    padding: 2em;
+    border-radius: 0px 25px;
+    width: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.isslocator #infoi #help-box {
+font-family: 'Poppins', sans-serif;
+font-size: 11px;
+color : black;
+display: block;
+margin-bottom: 3px;
+-webkit-transition: 0.15s;
+transition: 0.15s;
+}
+
+.isslocator #infoi #help-block {
+	color: red;
+}
+
+/* Map  */
+#mapid {
+	height: 500px;
+}
+
+/* ISS Map */
+.issmap {
+	padding-bottom: 3em;
+}
+
+/* Legend Table */
+#legend{
+font-weight: 400;
+font-size: 11px;
+color: white;
+}
+
+
+
+
+
