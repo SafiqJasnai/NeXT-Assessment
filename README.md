@@ -2,7 +2,7 @@
 NeXT Graduate Programme Assessment - Where was the International Space Station (ISS)?
 
 ## How to run the code?
-1. Clone this repository
+1. Clone or download this repository
 2. Run the PHP development environment, preferably XAMPP
 3. Create folder inside htdocs (C:/Program Files/XAMPP/htdocs) and name it "isslocator"
 4. Save all the files inside "isslocator" folder
