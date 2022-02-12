@@ -111,6 +111,8 @@ table tr td:first-child::before
 
         </div>
         <br>
+        <br>
+        <br>
         <h2 style="text-align:center; background-color:#212121;color:#ffffff">ISS Location (<?php echo $_POST['issDatetime'] ?>)</h2>
         <br>
         <section class="issmap">
