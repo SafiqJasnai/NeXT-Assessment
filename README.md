@@ -6,7 +6,7 @@ NeXT Graduate Programme Assessment - Where was the International Space Station (
 2. Run the PHP development environment, preferably XAMPP
 3. Create folder inside htdocs (C:/Program Files/XAMPP/htdocs) and name it "isslocator"
 4. Save all the files inside "isslocator" folder
-5. Open any browser and browse to http://localhost/isslocator/index.php
+5. Open any browser and go to http://localhost/isslocator/index.php
 
 ## Extension A (Front End)
 - iss-timestamp.php
