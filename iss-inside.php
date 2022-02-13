@@ -1,6 +1,6 @@
 <h2 style="text-align:center; background-color:#212121;color:#ffffff">People on the ISS</h2>
 <br>
-<div class="containerPeople">
+<div style="padding-bottom:40px">
 
     <?php
         $url = 'http://api.open-notify.org/astros.json';
@@ -21,37 +21,20 @@
 
         $arrays =  json_decode($result);
     ?>
-    <table class="tablePeople">
-
+    <table class="tableCoor">
         <thead>
-            <tr class="tablePeople-head">
-                <th colspan="12">Inside ISS</th>
+            <tr class="tableCoor-head">
+                <th style="color:#212121">Name</th> 
+                <th style="color:#212121">Craft</th> 
             </tr>
         </thead>
-
-        <td class="tablePeople-body">
-            <h3>Name</h3>
-        </td>
-        <?php for ($i=0; $i<10; $i++) {    ?>
-            <td class="tablePeople-body">
-                <?php echo $arrays -> people[$i] -> name ?>
-            </td>
-
-        <?php }  ?>
+        <?php 
+            for ($i=0; $i<10; $i++) {
+        ?>
         <tr>
-            <td>
-                <h3>Craft</h3>
-            </td> 
-
-            <?php for ($i=0; $i<10; $i++) {    ?>
-
-            <td class="tablePeople-body">
-
-            <?php echo $arrays -> people[$i] -> craft ?>
-
-            </td>
-
-            <?php }  ?>
-        </tr>
+            <td><?php echo $arrays -> people[$i] -> name ?> </td>
+            <td><?php echo $arrays -> people[$i] -> craft ?> </td> 
+        </tr>         
+        <?php  } ?>     
     </table>
 </div>
