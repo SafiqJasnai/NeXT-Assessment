@@ -1,7 +1,7 @@
 <section class="isslocator">
 
     <div id="infoi" class="container">
-    	<form action="iss-timestamp.php" method="post">
+    	<form action="iss-location.php" method="post">
     		<h2>ISS Locator</h2>
 	    	<input type="datetime-local" name="issDatetime">
 	    	<p id="help-box">Select Date & Time</p>
