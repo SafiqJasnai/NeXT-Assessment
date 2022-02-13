@@ -310,7 +310,7 @@ transition: 0.15s;
 }
 
 /* Map  */
-.mapid {
+#mapid {
 	height: 500px;
 }
 
@@ -325,8 +325,3 @@ font-weight: 400;
 font-size: 11px;
 color: white;
 }
-
-
-
-
-
