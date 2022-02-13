@@ -115,12 +115,12 @@ table tr td:first-child::before
         <br>
         <h2 style="text-align:center; background-color:#212121;color:#ffffff">ISS Location (<?php echo $_POST['issDatetime'] ?>)</h2>
         <br>
-        <section class="issmap">
-            <div id="mapid">    
-                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-                    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-                    crossorigin=""
-                />
+        <section class="isslive">   
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+                integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                crossorigin=""
+            />
+            <div id="mapid">
                 <script>
                     const attribution = '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors';
                     const map = L.map('mapid').setView([0, 0], 2);
