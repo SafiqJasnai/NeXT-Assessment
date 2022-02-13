@@ -5,7 +5,7 @@
     />
 </head>
 
-<section class="issmap">
+<section class="isslive">
     <br>
     <h2 style="text-align:center; background-color:#212121;color:#ffffff">ISS Live</h2>
     <br>
