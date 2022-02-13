@@ -1,16 +1,13 @@
-<head>
+<section class="isslive">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
             integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
             crossorigin=""
     />
-</head>
-
-<section class="isslive">
     <br>
     <h2 style="text-align:center; background-color:#212121;color:#ffffff">ISS Live</h2>
     <br>
     <div class="row">
-        <div id="mapid" style="text-align:left;width:60%">   
+        <div id="mapid" style="width:60%">   
             <script>
                 const attribution = '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors';
                 const map = L.map('mapid').setView([0, 0], 2);
