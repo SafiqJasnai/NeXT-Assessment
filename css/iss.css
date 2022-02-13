@@ -310,7 +310,7 @@ transition: 0.15s;
 }
 
 /* Map  */
-#mapid {
+.mapid {
 	height: 500px;
 }
 
