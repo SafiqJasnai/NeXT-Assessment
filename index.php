@@ -11,7 +11,7 @@
 
 		<?php include ('iss-locator.php') ?>
 
-		<?php include ('iss-map.php'); ?>
+		<?php include ('iss-live.php'); ?>
 
 		<?php include ('iss-inside.php'); ?>
 
