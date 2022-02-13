@@ -12,16 +12,16 @@
 		<?php include ('iss-locator.php') ?>
 
 		<?php include ('iss-live.php'); ?>
-
-		<?php include ('iss-inside.php'); ?>
-
-		<?php include ('iss-twitter.php'); ?>
-
+		<div class="row">
+			<div style="width:45%">
+				<?php include ('iss-inside.php'); ?>
+			</div>
+			<div style="text-align:left;width:45%">
+				<?php include ('iss-twitter.php'); ?>
+			</div>
+		</div>
 	</div>
 
 
 
 </body>
-
-
-
