@@ -9,7 +9,7 @@ NeXT Graduate Programme Assessment - Where was the International Space Station (
 5. Open any browser and go to http://localhost/isslocator/index.php
 
 ## Extension A (Front End)
-- iss-timestamp.php
+- iss-location.php
 - https://www.openstreetmap.org/
 
 ## Extension B (Back End)
@@ -28,4 +28,4 @@ NeXT Graduate Programme Assessment - Where was the International Space Station (
 - iss-inside.php
 
 ###### ISS location Live
-- iss-map.php
+- iss-live.php
