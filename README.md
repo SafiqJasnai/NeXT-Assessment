@@ -23,9 +23,13 @@ NeXT Graduate Programme Assessment - Where was the International Space Station (
 
 ###### Space Station tweets
 - iss-twitter.php
+- https://publish.twitter.com/#
 
 ###### People on the ISS
 - iss-inside.php
+- http://api.open-notify.org/astros.json
 
 ###### ISS location Live
 - iss-live.php
+- https://api.wheretheiss.at/v1/satellites/25544
+- https://ustream.tv/embed/9408562
